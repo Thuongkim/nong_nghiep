@@ -1,0 +1,12 @@
+[02-Jan-2017 15:26:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/quansuqu/public_html/config/database.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/quansuqu/public_html/config/database.php on line 29
+[02-Jan-2017 15:57:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/quansuqu/public_html/config/database.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/quansuqu/public_html/config/database.php on line 29
+[03-Jan-2017 01:06:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/quansuqu/public_html/config/database.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/quansuqu/public_html/config/database.php on line 29

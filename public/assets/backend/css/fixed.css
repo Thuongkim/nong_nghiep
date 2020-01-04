@@ -1,0 +1,112 @@
+.ajax_overlay {}
+
+.ajax_loader {
+    /*background: url("ajax-loader_blue.gif") no-repeat center center transparent;*/
+    width:100%;
+    position: fixed;
+    height:100%;
+}
+
+.scroll-top-wrapper {
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    text-align: center;
+    z-index: 99999999;
+    background-color: #777777;
+    color: #eeeeee;
+    width: 50px;
+    height: 48px;
+    line-height: 48px;
+    right: 30px;
+    bottom: 30px;
+    padding-top: 2px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.scroll-top-wrapper:hover {
+    background-color: #888888;
+}
+.scroll-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+    opacity: 1.0;
+}
+.scroll-top-wrapper i.fa {
+    line-height: inherit;
+}
+
+.a_cursor {
+    cursor: pointer;
+}
+
+.a_none {
+    color: white !important;
+}
+
+.a_default {
+    color: white !important;
+    text-decoration: none;
+}
+
+.pagination {
+    margin: 0 !important;
+}
+.borderless td, .borderless th {
+    border: none !important;
+}
+.checkbox_prop {
+    margin: 0 4px 4px 0;
+    width: 21px;
+    height: 21px;
+    border: 2px solid #ddd;
+    float: left;
+}
+
+.checkbox_prop-value {
+    display: block;
+    width: 15px;
+    height: 15px;
+    text-indent: -10000px;
+    overflow: hidden;
+    background: #ccc;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+
+
+h1 {
+    font-size: 25px;
+}
+
+.page-header {
+    margin-top: 0;
+}
+
+/*.table tbody>tr>td.vert-center, .table thead>tr>td.vert-center, .table thead>tr>th.vert-center {
+    vertical-align: middle;
+    text-align: center;
+}*/
+
+.table_center_middle tbody>tr>td, .table_center_middle thead>tr>td, .table_center_middle thead>tr>th {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table_right_middle {
+    vertical-align: middle !important;
+    text-align: right !important;
+}
+
+.borderless td, .borderless th {
+    border: none !important;
+}
+
+.table tbody>tr>td.vert-center, .table thead>tr>td.vert-center, .table thead>tr>th.vert-center {
+    vertical-align: middle;
+    text-align: center;
+}

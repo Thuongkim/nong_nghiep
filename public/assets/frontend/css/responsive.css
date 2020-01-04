@@ -1,0 +1,203 @@
+@media (max-width: 1024px) {
+    .nav ul li a{
+        padding:11px 13px;
+    }
+}
+@media (max-width: 768px) {
+    /*Menu*/
+    header.divfixed,header{
+        position: static;
+    }
+    .menu {
+        width: 100%;
+        margin-top: 0px;
+        display: none;
+    }
+    .logo_res{
+        display: block;
+    }
+    .togger-menu {
+        background: #028fdc;
+        padding-bottom: 0px;
+        margin-top: 3px;
+        display: inline-block;
+        width: 100%;
+        cursor: pointer;
+        height: 35px;
+        position: relative;
+    }
+
+    .togger-menu span {
+        float: left;
+        color: #fff;
+        font-size: 22px;
+        margin-right: 10px;
+        margin-left: 10px;
+        display: block;
+        height: 40px;
+        background: rgba(23,20,5,0.8);
+        padding: 5px;
+    }
+    .togger-menu span img{
+        max-height: 100%;
+    }
+    .nav {
+        padding:0;
+        margin-bottom: 10px;
+    }
+    .nav ul li a {
+        text-decoration: none;
+        width: 100%;
+        display: inline-block;
+        font-weight: 500;
+        box-shadow: none;
+        border-right: none;
+    }
+
+    .togger-menu i {
+        float: right;
+        right: 0;
+        position: absolute;
+        color: #ffffff;
+        font-size: 25px;
+        cursor: pointer;
+        margin-right: 15px;
+        top: 7px;
+    }
+
+    .togger-menu-sub {
+        float: right;
+        color: #bf0202;
+        right: 0px;
+        top: 0px;
+        position: absolute;
+        display: block;
+    }
+
+    .nav ul li:hover {
+        transition: all 0.25s;
+        color: #a1241c;
+    }
+
+    .menu ul li ul li {
+        padding: 0px 15px;
+        width: 85%;
+        border-top: none;
+        border-left: none;
+        line-height: 40px;
+        color: #666;
+    }
+
+    .menu ul li ul li a {
+        color: #fff;
+    }
+    .nav ul li a.note-pa{
+        background: transparent;
+        padding-top: 0;
+    }
+    .menu ul li:hover ul {
+        display: block;
+    }
+
+    .menu ul li ul {
+        display: none;
+        position: static;
+        top: 45px;
+        width: 330px;
+        left: 0px;
+        z-index: 99999;
+        /*background: #ffffff;*/
+    }
+
+    .nav ul li ul {
+        display: none;
+        top: 45px;
+        width: 100%;
+        left: 0px;
+        z-index: 99999;
+        /*background: #fff;*/
+        border: 0px;
+    }
+
+    .menu ul li {
+        width: 100%;
+        display: inline-block;
+        list-style: none;
+        float: left;
+        padding: 0;
+        font-size: 16px;
+        height: auto;
+        line-height: 37px;
+        text-transform: none;
+        border-bottom: 1px solid #55120b;
+    }
+    .menu > ul:last-child > li {
+        border-bottom: none;
+    }
+    .banner_header img {
+        width: 100%;
+        height: 120px;
+    }
+
+    .logo {
+        position: relative;
+        margin: 10px 15px 10px 15px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .slide img {
+        width: 100%;
+        height: 250px;
+    }
+
+    #menu-primary a i {
+        display: none;
+    }
+
+    .ads-left{
+        display: none;
+    }
+    header{
+        position: static;
+    }
+    header .logo{
+        display: none;
+    }
+    .sub-menu{
+        position: static!important;
+        z-index: 99999;
+    }
+    .nav ul li{
+        background: none;
+        position: relative;
+    }
+    .nav ul{
+        margin-right: 0;
+        /*background: #fff;*/
+        display: block;
+    }
+    header.divfixed{
+        height: auto;
+    }
+    .menu ul li ul li{
+        width: 100%;
+    }
+    .menu-product{
+        height: auto;
+    }
+    .mxh img{
+        width: 26px;
+        margin-top: 0;
+    }
+}
+@media (max-width: 768px) {
+    .mxh_title{
+        margin-bottom: 6px;
+        text-align: left;
+    }
+    .mxh {
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+}
